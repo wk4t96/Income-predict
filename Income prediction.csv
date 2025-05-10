@@ -1,0 +1,6 @@
+____________,Age,Sex,Education_Level,Occupation,Hours_per_week,Marital_status,Relationship,Predicted class
+2025/5/10 下午 7:22:53,33,Male,Bachelors,Sales,50,Married-civ-spouse,Husband,>50K
+2025/5/10 下午 7:25:05,35,Female,Bachelors,Priv-house-serv,41,Married-civ-spouse,Wife,>50K
+2025/5/11 上午 1:08:48,26,Male,HS-grad,Handlers-cleaners,46,Never-married,Not-in-family,≤50K
+2025/5/11 上午 1:10:10,28,Female,12th,Adm-clerical,36,Divorced,Own-child,≤50K
+2025/5/11 上午 1:12:12,57,Male,Doctorate,Prof-specialty,44,Married-spouse-absent,Husband,>50K
