@@ -18,7 +18,7 @@ query = f"SELECT * FROM `{project_id}.{dataset_id}.{table_id}`"
 # 執行查詢並將結果載入到 Pandas DataFrame
 try:
     df = client.query(query).to_dataframe()
-    print("成功從 BigQuery 讀取資料到 DataFrame！")
+    print("成功從 BigQuery 讀取資料到 DataFrame！原始表單資料的前幾行是：")
     print(df.head()) # 顯示 DataFrame 的前幾行
 except Exception as e:
     print(f"讀取 BigQuery 資料時發生錯誤：{e}")
